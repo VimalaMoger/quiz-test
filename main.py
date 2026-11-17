@@ -1,6 +1,6 @@
 from data import data
-from QuestionModel import Question
-from QuizBrain import QuizBrain
+from question_model import Question
+from quiz_brain import QuizBrain
 from quiz_game_logo import logo
 
 def get_data(data_source):
