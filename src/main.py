@@ -1,7 +1,7 @@
-from data import data
+from src.utils.data import data
 from question_model import Question
 from quiz_brain import QuizBrain
-from quiz_game_logo import logo
+from src.utils.quiz_game_logo import logo
 
 def get_data(data_source):
     """Returns the questions_pool list"""
